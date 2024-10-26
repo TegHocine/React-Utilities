@@ -21,5 +21,7 @@ The `isNumber` function checks if the provided value is a valid number. It accep
 
 
 ```javascript
-const isNumber = (v) => (typeof v === "number" && v - v === 0) || (typeof v === "string" && Number.isFinite(+v) && v.trim() !== "");
+const isNumber = (v) =>
+(typeof v === "number" && v - v === 0) ||
+(typeof v === "string" && Number.isFinite(+v) && v.trim() !== "");
 ```
