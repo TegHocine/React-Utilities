@@ -5,7 +5,7 @@
 This setup uses QueryClient from React Query with a custom MutationCache. It automatically invalidates queries after a successful mutation, ensuring fresh data.
 
 
-``javascript
+```javascript
 const queryClient = new QueryClient({
   mutationCache: new MutationCache({
     onSuccess: () => {
@@ -13,5 +13,5 @@ const queryClient = new QueryClient({
     },
   }),
 });
-``
+```
 
