@@ -15,8 +15,6 @@ const queryClient = new QueryClient({
 });
 ```
 
-#
-
 ## isNumber Function
 
 The `isNumber` function checks if the provided value is a valid number. It accepts both numeric and string representations of numbers. The function returns `true` if the value is a number or a string that can be converted to a finite number; otherwise, it returns `false`.
