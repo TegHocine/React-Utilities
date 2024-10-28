@@ -2,7 +2,7 @@
 ## Shadcn
 https://ui.shadcn.com/
 ## Form-builder 
-https://shadcn-form-build.vercel.app/templates/contact/contact
+https://shadcn-form-build.vercel.app/
 
 # React-Utilities
 ## React Query Setup with Mutation Cache
