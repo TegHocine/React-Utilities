@@ -12,13 +12,12 @@ interface UseOutsideClickProps {
   cb: () => void;
 }
 
-export function useOutsideClick({ enable, ref, cb }: UseOutsideClickProps) {
+export function useOutsideClick({ enabled, ref, cb }: UseOutsideClickProps) {
   useEffect(() => {
-    if(!enable) return
+    if (!enabled) return;
+
     const element = ref.current;
-
     if (!element) return;
-
     function handle(e: MouseEvent) {
       if (!element.contains(e.target as Node)) {
         cb();
@@ -26,11 +25,10 @@ export function useOutsideClick({ enable, ref, cb }: UseOutsideClickProps) {
     }
 
     document.addEventListener('click', handle);
-
     return () => {
       document.removeEventListener('click', handle);
     };
-  }, [ref, cb]);
+  }, [enabled, ref, cb]);
 }
 ```
 ## usePersistedState Hook
