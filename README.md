@@ -5,7 +5,7 @@ https://ui.shadcn.com/
 https://shadcn-form-build.vercel.app/
 
 # React-Utilities
-- [Hooks Documentation](./hooks.md)
+- [Hooks](./hooks.md)
 
 # React-Hooks
-- [Utils Documentation](./utils.md)
+- [Utils](./utils.md)
