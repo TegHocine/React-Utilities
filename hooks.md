@@ -18,6 +18,7 @@ export function useOutsideClick({ enabled, ref, cb }: UseOutsideClickProps) {
 
     const element = ref.current;
     if (!element) return;
+
     function handle(e: MouseEvent) {
       if (!element.contains(e.target as Node)) {
         cb();
