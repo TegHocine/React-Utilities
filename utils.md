@@ -69,3 +69,36 @@ api.interceptors.response.use(
 export { api };
 
 ```
+
+## localStorage
+Helper functions for localStorage with improved names and typings
+
+```typescript
+
+export const saveToLocalStorage = (key: string, value: unknown): void => {
+  try {
+    window.localStorage.setItem(key, JSON.stringify(value));
+  } catch (error) {
+    console.error("Failed to save to localStorage:", error);
+  }
+};
+
+export const getFromLocalStorage = <T>(key: string): T | undefined => {
+  try {
+    const item = window.localStorage.getItem(key);
+    return item ? (JSON.parse(item) as T) : undefined;
+  } catch (error) {
+    console.error("Failed to retrieve from localStorage:", error);
+    return undefined;
+  }
+};
+
+export const removeFromLocalStorage = (key: string): void => {
+  try {
+    window.localStorage.removeItem(key);
+  } catch (error) {
+    console.error("Failed to remove from localStorage:", error);
+  }
+};
+
+```
