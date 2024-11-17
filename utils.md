@@ -30,7 +30,7 @@ This setup uses Axios to handle HTTP requests with automatic token management an
 import axios from "axios";
 import { getInitialValue } from "../utils";
 
-const baseURL = import.meta.env.VITE_API_BASE_URL;
+const baseURL = "";
 
 const api = axios.create({
   baseURL,
@@ -43,7 +43,7 @@ const api = axios.create({
 // Request Interceptor
 api.interceptors.request.use(
   (config) => {
-    const storedToken = getInitialValue(null, "token");
+    const storedToken = window.localStorage.getItem("token");
     if (storedToken) {
       config.headers["Authorization"] = `Bearer ${storedToken}`;
     }
