@@ -51,3 +51,24 @@ export default function usePersistedState<T>(key: string, initialValue: T) {
   return [value, setValue] as const;
 }
 ```
+## useDebounce Hook
+The useDebounce hook is a custom React hook that delays the update of a value until after a specified delay time has passed.
+
+```typescript
+import { useEffect, useState } from 'react';
+
+export const useDebounce = <T>(value: T, delay = 500) => {
+  const [debouncedValue, setDebouncedValue] = useState<T>(value);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setDebouncedValue(value);
+    }, delay);
+
+    return () => clearTimeout(timeout);
+  }, [value, delay]);
+
+  return debouncedValue;
+}
+```
+
