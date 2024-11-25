@@ -1,7 +1,5 @@
 # Web-Utilities
 
-# Web-Utilities
-
 | Name               | Description                                                                                                         | Web Link                                                     |
 |--------------------|-------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | Shadcn             | A collection of reusable React components.                                                                         | [https://ui.shadcn.com/](https://ui.shadcn.com/)            |
