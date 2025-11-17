@@ -22,3 +22,4 @@
 | Stan-JS               | Fast and elegant state management for React, React Native, and vanilla JS apps.                                     | [https://codemask-labs.github.io/stan-js/](https://codemask-labs.github.io/stan-js/)|
 | Reshaped    | A professionally crafted design system offering React & Figma components for building products or creating your own design system . | https://reshaped.so/ |
 | Animate UI  | An open-source collection of fluid, animated React components built with Tailwind CSS, Framer Motion, and Shadcn CLI—designed to complement Shadcn UI and easily integrate into projects. | https://animate-ui.com/ |
+| Evil Charts | Uses Shadcn. Explore the world of charts with EvilCharts. Animated & Interactive charts for your next project. | https://evilcharts.com/ |
