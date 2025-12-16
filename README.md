@@ -8,7 +8,7 @@
 |-----------------------|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | Shadcn                | A collection of reusable React components.                                                                          | [https://ui.shadcn.com/](https://ui.shadcn.com/)            |
 | └ Theme Editor        | Visual theme customization tool for Shadcn UI.                                                                      | [https://tweakcn.com/editor/theme](https://tweakcn.com/editor/theme) |
-| Form-builder          | Visual form builder for creating forms without writing any code.                                                    | [https://shadcn-form-build.vercel.app/](https://shadcn-form-build.vercel.app/)|
+| Form-builder          | Visual form builder for creating forms without writing any code.                                                    | [https://shadcn-form-build.vercel.app/](https://www.shadcn-form.com/)|
 | Originui              | A modern UI framework built with React, offering a rich set of components.                                          | [https://originui.com/](https://originui.com/)                |
 | CSS Grid Generator    | Visual tool to help visualize your CSS grid layout before applying it.                                              | [https://cssgrid-generator.netlify.app/](https://cssgrid-generator.netlify.app/)|
 | Custom Shape Creator  | Online tool for creating custom shapes, masks, and patterns using SVG.                                              | [https://bennettfeely.com/clippy/](https://bennettfeely.com/clippy/)|
